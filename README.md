@@ -27,7 +27,7 @@ This is the repository (updating from time to time) for the paper simplicial con
 2. [`.experiments`](.experiments) folder
 - [`.experiments/impute_citations1.py`](.experiments/impute_citations1.py) is the SNN Ebli20 implementation, and [`.experiments/impute_citations2.py`](.experiments/impute_citations2.py) is our SCNN
 - [`.experiments/accuracy_evaluation.py`](.experiments/accuracy_evaluation.py) is the evaluation code for the mean and the variance of the imputation results with both architectures, averaged over 10 realizations
-- [`.experiments/loss_plot.py`](.experiments/loss_plot.py) draws the training loss and test loss for both architectures given a specific missing value 
+- [`.experiments/output_analysis.py`](.experiments/output_analysis.py) draws the training loss and test loss for both architectures given a specific missing value 
 - [`.experiments/output_10`](.experiments/output_10) folder stores the training and test output files for the missing value 10% for both architectures
 
 3. [`.scnn`](scnn) folder contains the simplicial convolutional layers for both architectures
