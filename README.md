@@ -6,7 +6,7 @@ This is the repository (updating from time to time) for the paper [simplicial co
 # to run the code
 
  1. download the code and data
- 2. run the below to train and test the SNN Ebli20 and our SCNN for a 10% and 20% missing value cases, which output the results in folders [`./experiments/output_10`](./experiments/output_10) and [`./experiments/output_20`](./experiments/output_20)
+ 2. run the below to train and test the SNN Ebli20 and our SCNN for a 10% and 20% missing value cases, which output the results in folders [`.experiments/output_10`](.experiments/output_10) and [`.experiments/output_20`](.experiments/output_20)
     
     ```sh
     cd simplicial_convolutional_neural_networks
