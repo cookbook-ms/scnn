@@ -1,5 +1,5 @@
 # simplicial_convolutional_neural_networks
-This is the repository (updating from time to time) for the paper simplicial convolutional neural network. Some descriptions are detailed as below.  
+This is the repository (updating from time to time) for the paper simplicial convolutional neural network (https://arxiv.org/abs/2110.02585). Some descriptions are detailed as below.  
 
 # to run the code
 
