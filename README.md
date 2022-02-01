@@ -7,7 +7,7 @@ This is the repository (updating from time to time) for the paper simplicial con
  2. run the below to train and test the SNN Ebli20 and our SCNN for a 10% and 20% missing value cases, which output the results in folders [`./experiments/output_10`](./experiments/output_10) and [`./experiments/output_20`](./experiments/output_20)
     
     ```sh
-    cd simplicial_neural_networks
+    cd simplicial_convolutional_neural_networks
     # this is to train and test the SNN Ebli20 for a 10% missing value case
     python .experiments/impute_citations1.py .data/s2_3_collaboration_complex ./experiments/output_10 150250 10 
     # this is to train and test the SNN Ebli20 for a 20% missing value case
