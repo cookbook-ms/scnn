@@ -26,7 +26,7 @@ This is the repository (updating from time to time) for the paper [simplicial co
 - folder [`./data`](./data) contains the code (from s2_1_xxx to s2_7_xxx) to generate the data. See https://github.com/stefaniaebli/simplicial_neural_networks for a detailed description.
 - Specifically, folder [`./data/s2_3_collaboration_complex`](./data/s2_3_collaboration_complex) includes 10 realizations of the data for each percentage of missing values, and the collaboration complex data, including the boundaries, cochains, and the Hodge Laplacians. 
 
-2. [`.experiments`](.experiments) folder
+2. [`./experiments`](./experiments) folder
 - [`./experiments/impute_citations1.py`](./experiments/impute_citations1.py) is the SNN Ebli20 implementation, and [`./experiments/impute_citations2.py`](./experiments/impute_citations2.py) is our SCNN
 - [`./experiments/accuracy_evaluation.py`](./experiments/accuracy_evaluation.py) is the evaluation code for the mean and the variance of the imputation results with both architectures, averaged over 10 realizations
 - [`./experiments/output_analysis.py`](./experiments/output_analysis.py) draws the training loss and test loss for both architectures given a specific missing value 
