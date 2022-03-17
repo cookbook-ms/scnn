@@ -1,5 +1,6 @@
 # simplicial_convolutional_neural_networks
 [simplicial convolutional neural network]:https://arxiv.org/abs/2110.02585
+[SNN Ebli20]:https://arxiv.org/abs/2010.03633
 
 This is the repository (updating from time to time) for the paper [simplicial convolutional neural network]. Some descriptions are detailed as below.  
 
