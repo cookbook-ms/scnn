@@ -12,13 +12,13 @@ This is the repository (updating from time to time) for the paper [simplicial co
     ```sh
     cd simplicial_convolutional_neural_networks
     # this is to train and test the SNN Ebli20 for a 10% missing value case
-    python .experiments/impute_citations1.py .data/s2_3_collaboration_complex ./experiments/output_10 150250 10 
+    python ./experiments/impute_citations1.py .data/s2_3_collaboration_complex ./experiments/output_10 150250 10 
     # this is to train and test the SNN Ebli20 for a 20% missing value case
-    python .experiments/impute_citations1.py .data/s2_3_collaboration_complex ./experiments/output_20 150250 20
+    python ./experiments/impute_citations1.py .data/s2_3_collaboration_complex ./experiments/output_20 150250 20
     # this is to train and test our SCNN for a 10% missing value case
-    python .experiments/impute_citations2.py .data/s2_3_collaboration_complex ./experiments/output_10 150250 10 
+    python ./experiments/impute_citations2.py .data/s2_3_collaboration_complex ./experiments/output_10 150250 10 
     # this is to train and test our SCNN for a 20% missing value case
-    python .experiments/impute_citations2.py .data/s2_3_collaboration_complex ./experiments/output_20 150250 20 
+    python ./experiments/impute_citations2.py .data/s2_3_collaboration_complex ./experiments/output_20 150250 20 
     # likewise for the cases with other percentages of missing values 
     ```
 
